@@ -104,7 +104,7 @@ describe('AppComponent', () => {
     const message = debugElement.query(By.css('p.message')).nativeElement.innerText;
 
     expect(fixture.componentInstance.value).toEqual(15);
-    expect(message).toContain('Maximum1');
+    expect(message).toContain('Maximum');
   });
 
 });
